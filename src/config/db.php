@@ -1,9 +1,9 @@
 <?php
   class db{
     private $dbHost ='localhost';
-    private $dbUser = 'myUser';
-    private $dbPass = 'NrTX577Fo9IiZEl9';
-    private $dbName = 'apiRest';
+    private $dbUser = 'fernando';
+    private $dbPass = 'Pirulo71.';
+    private $dbName = 'casa';
     //conección 
     public function conectDB(){
       $mysqlConnect = "mysql:host=$this->dbHost;dbname=$this->dbName";
